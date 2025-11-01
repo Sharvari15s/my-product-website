@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ---------- Global Styles ---------- */
+body {
+  @apply bg-white text-gray-900 font-sans scroll-smooth;
+}
+
+/* ---------- Theme Colors ---------- */
+:root {
+  --brand-purple: #8a00e0;
+  --brand-purple-dark: #4c0080;
+  --brand-purple-light: #e0b3ff;
+  --text-dark: #1a1a1a;
+  --text-light: #f9f9f9;
+}
+
+/* ---------- Reusable Classes ---------- */
+.section {
+  @apply py-20 px-6;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-3;
+  color: var(--text-dark);
+}
+
+.section-subtitle {
+  @apply text-lg mb-8;
+  color: #555;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, var(--brand-purple), var(--brand-purple-dark));
+  color: white;
+}
+
+.primary-btn {
+  @apply px-6 py-3 rounded-xl font-semibold transition;
+  background-color: var(--brand-purple);
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: var(--brand-purple-dark);
+}
+
+.card {
+  @apply rounded-2xl p-6 shadow-md transition;
+  background-color: white;
+}
+
+.card:hover {
+  @apply shadow-lg;
+}
+
+/* ---------- Form Elements ---------- */
+.input {
+  @apply w-full p-3 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-purple-500;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  @apply bg-gray-900 text-gray-400 py-12 text-center;
+}
+
+.footer a {
+  @apply hover:text-white;
+}
