@@ -41,7 +41,7 @@ export default function Specifications() {
 
         <div className="flex items-center justify-center">
           <div className="bg-white rounded-2xl p-6 shadow-xl">
-            <img src="/aserts/earbuds.png" alt="earbuds" className="w-[320px] h-auto object-contain" />
+            <img src="/src/assets/earpods.jpg" alt="earbuds" className="w-[320px] h-auto object-contain" />
           </div>
         </div>
       </div>

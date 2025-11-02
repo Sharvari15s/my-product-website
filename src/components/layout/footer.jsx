@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <div className="flex items-center gap-3">
-            <img src="/aserts/logo.png" alt="logo" className="w-10 h-10" />
-            <span className="font-semibold">AuraPods Pro</span>
+            <img src="/src/assets/logo.png" alt="logo" className="w-10 h-10" />
+            <span className="font-semibold">Aora AI Pro</span>
           </div>
           <p className="mt-4 text-sm text-gray-400">The future of premium wireless audio.</p>
         </div>
