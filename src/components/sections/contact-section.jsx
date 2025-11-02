@@ -45,7 +45,7 @@ export default function ContactSection() {
             <Input name="name" placeholder="Full name" value={form.name} onChange={handleChange} />
             <Input name="email" placeholder="Email address" value={form.email} onChange={handleChange} />
             <Input name="phone" placeholder="Phone number" value={form.phone} onChange={handleChange} />
-            <Button type="submit">Get Early Access</Button>
+            <Button type="submit">Get Started</Button>
 
             {status && (
               <div className={`mt-3 text-sm ${status.type === "error" ? "text-red-600" : "text-green-600"}`}>
