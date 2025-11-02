@@ -11,8 +11,8 @@ export default function Header() {
     <header className={`fixed w-full z-30 transition-all ${scrolled ? "backdrop-blur bg-white/70 shadow-md" : "bg-transparent"}`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/aserts/logo.png" alt="logo" className="w-10 h-10 object-contain" />
-          <span className="font-semibold text-lg">AuraPods Pro</span>
+          <img src="/src/assets/logo.png" alt="logo" className="w-10 h-10 object-contain" />
+          <span className="font-semibold text-lg">Aora AI Pro</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <a href="#features" className="hover:text-purple-600">Features</a>
